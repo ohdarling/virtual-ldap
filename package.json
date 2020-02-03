@@ -1,0 +1,38 @@
+{
+  "name": "virtual-ldap",
+  "version": "0.1.0",
+  "author": {
+    "name": "ohdarling88",
+    "url": "https://xujiwei.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/**/*.js",
+    "config.example.js"
+  ],
+  "keywords": [
+    "ldap",
+    "dingtalk",
+    "keycloak",
+    "钉钉",
+    "enterprise"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohdarling/virtual-ldap"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "LOG_TIME=abs LOG_LEVEL=info node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cron": "^1.8.2",
+    "ldapjs": "^1.0.2",
+    "log": "^6.0.0",
+    "log-node": "^7.0.0",
+    "mysql2": "^2.1.0",
+    "otplib": "^12.0.1"
+  }
+}
