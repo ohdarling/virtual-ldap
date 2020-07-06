@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "LOG_TIME=abs LOG_LEVEL=info node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
