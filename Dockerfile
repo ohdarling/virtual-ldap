@@ -4,6 +4,7 @@ WORKDIR /app
 COPY package.json /app/
 RUN npm install
 
+COPY lib /app/lib
 COPY index.js /app/
 COPY config.example.js /app/config.js
 
