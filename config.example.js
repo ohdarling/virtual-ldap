@@ -7,6 +7,8 @@ module.exports = {
     // Users base DN will be ou=People,o=Example,dc=example,dc=com
     rootDN: 'dc=example,dc=com',
     organization: 'Example',
+    // Default password for ldap user
+    userPassword: 'userPass',
     // Admins who can search or modify directory
     admins: [
       {
