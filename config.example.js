@@ -9,6 +9,9 @@ module.exports = {
     organization: 'Example',
     // Default password for ldap user
     userPassword: 'userPass',
+    // Cronjob for sync from dingtalk
+    cronJob: '0 0 * * *',
+    timeZone: 'Asia/Shanghai',
     // Admins who can search or modify directory
     admins: [
       {
