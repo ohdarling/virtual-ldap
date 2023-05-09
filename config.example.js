@@ -7,6 +7,11 @@ module.exports = {
     // Users base DN will be ou=People,o=Example,dc=example,dc=com
     rootDN: 'dc=example,dc=com',
     organization: 'Example',
+    // Default password for ldap user
+    userPassword: 'userPass',
+    // Cronjob for sync from dingtalk
+    cronJob: '0 0 * * *',
+    timeZone: 'Asia/Shanghai',
     // Admins who can search or modify directory
     admins: [
       {
