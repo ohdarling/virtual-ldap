@@ -29,7 +29,7 @@ module.exports = {
         // Default password for ldap user, Random password will be generated if not set
         userPassword: 'userPass',
         // Cronjob for sync from dingtalk(default every hour)
-        cronJob: '0 0 * * *',
+        cronJob: '0 0 * * * *',
         // Timezone for cronjob(default UTC+8 GMT+8 Asia/Shanghai China Standard Time)
         timeZone: 'Asia/Shanghai',
         // Admins who can search or modify directory
