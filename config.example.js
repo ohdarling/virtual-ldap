@@ -7,10 +7,11 @@ module.exports = {
     // Users base DN will be ou=People,o=Example,dc=example,dc=com
     rootDN: 'dc=example,dc=com',
     organization: 'Example',
-    // Default password for ldap user
+    // Default password for ldap user, Random password will be generated if not set
     userPassword: 'userPass',
-    // Cronjob for sync from dingtalk
-    cronJob: '0 0 * * *',
+    // Cronjob for sync from dingtalk(default every hour)
+    cronJob: '0 0 * * * *',
+    // Timezone for cronjob(default UTC+8 GMT+8 Asia/Shanghai China Standard Time)
     timeZone: 'Asia/Shanghai',
     // Admins who can search or modify directory
     admins: [
@@ -37,7 +38,7 @@ module.exports = {
     password: '123456',
     database: 'vldap',
   },
-  // Provider for providen account service
+  // Provider for providen account service, Create Apps by https://open-dev.dingtalk.com/fe/app#/corp/app
   provider: {
     name: 'dingtalk',
     appKey: '__APPKEY__',
