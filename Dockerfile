@@ -2,7 +2,7 @@ FROM node:13.7.0-alpine
 
 WORKDIR /app
 COPY package.json /app/
-RUN npm install
+RUN npm install --registry=http://registry.npmmirror.com
 
 COPY lib /app/lib
 COPY index.js /app/
