@@ -27,7 +27,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "cron": "^1.8.2",
     "ldapjs": "^1.0.2",
     "log": "^6.0.0",
